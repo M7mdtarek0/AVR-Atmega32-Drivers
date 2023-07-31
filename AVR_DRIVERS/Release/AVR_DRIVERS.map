@@ -1,0 +1,975 @@
+Archive member included because of file (symbol)
+
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              ./src/Pwm.o (__udivmodhi4)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                              ./src/Lcd.o (__divmodsi4)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./src/Adc_PbCfg.o (__do_copy_data)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ./src/Adc.o (__do_clear_bss)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+                              ./src/Lcd.o (__ashldi3)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+                              ./src/Lcd.o (__udivdi3)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+                              ./src/Lcd.o (__umoddi3)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o) (__mulsi3)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o) (__prologue_saves__)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o) (__epilogue_restores__)
+f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                              f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o) (__clz_tab)
+
+Allocating common symbols
+Common symbol       size              file
+
+T_on                0x2               ./src/main.o
+T_total             0x2               ./src/main.o
+receivedChar        0x1               ./src/main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./src/Adc.o
+LOAD ./src/Adc_PbCfg.o
+LOAD ./src/Button.o
+LOAD ./src/Dio.o
+LOAD ./src/Eeprom.o
+LOAD ./src/ExtInt.o
+LOAD ./src/Gpt.o
+LOAD ./src/Gpt_PbCfg.o
+LOAD ./src/I2c.o
+LOAD ./src/Icu.o
+LOAD ./src/Keypad.o
+LOAD ./src/Lcd.o
+LOAD ./src/Lcd_PbCfg.o
+LOAD ./src/Led.o
+LOAD ./src/Pwm.o
+LOAD ./src/Spi.o
+LOAD ./src/SpiApp.o
+LOAD ./src/Ssd.o
+LOAD ./src/Uart.o
+LOAD ./src/Wdt.o
+LOAD ./src/main.o
+LOAD f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x439a
+ *(.vectors)
+ .vectors       0x00000000       0x54 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092        0x0 ./src/Adc.o
+ .text          0x00000092        0x0 ./src/Adc_PbCfg.o
+ .text          0x00000092        0x0 ./src/Button.o
+ .text          0x00000092        0x0 ./src/Dio.o
+ .text          0x00000092        0x0 ./src/Eeprom.o
+ .text          0x00000092        0x0 ./src/ExtInt.o
+ .text          0x00000092        0x0 ./src/Gpt.o
+ .text          0x00000092        0x0 ./src/Gpt_PbCfg.o
+ .text          0x00000092        0x0 ./src/I2c.o
+ .text          0x00000092        0x0 ./src/Icu.o
+ .text          0x00000092        0x0 ./src/Keypad.o
+ .text          0x00000092        0x0 ./src/Lcd.o
+ .text          0x00000092        0x0 ./src/Lcd_PbCfg.o
+ .text          0x00000092        0x0 ./src/Led.o
+ .text          0x00000092        0x0 ./src/Pwm.o
+ .text          0x00000092        0x0 ./src/Spi.o
+ .text          0x00000092        0x0 ./src/SpiApp.o
+ .text          0x00000092        0x0 ./src/Ssd.o
+ .text          0x00000092        0x0 ./src/Uart.o
+ .text          0x00000092        0x0 ./src/Wdt.o
+ .text          0x00000092        0x0 ./src/main.o
+ .text          0x00000092        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000092        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00000092        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000092        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000092        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000092       0xfe f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+                0x00000092                __ashldi3
+ .text          0x00000190      0xcea f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+                0x00000190                __udivdi3
+ .text          0x00000e7a      0xce0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+                0x00000e7a                __umoddi3
+ .text          0x00001b5a        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00001b5a        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00001b5a        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00001b5a        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text          0x00001b5a        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                0x00001b5a                . = ALIGN (0x2)
+ *(.text.*)
+ .text.ISR      0x00001b5a       0x16 ./src/Adc.o
+                0x00001b5a                ISR
+ .text.Adc_Init
+                0x00001b70      0x104 ./src/Adc.o
+                0x00001b70                Adc_Init
+ .text.Adc_StartConversion
+                0x00001c74       0x16 ./src/Adc.o
+                0x00001c74                Adc_StartConversion
+ .text.Adc_GetResultSync
+                0x00001c8a       0x10 ./src/Adc.o
+                0x00001c8a                Adc_GetResultSync
+ .text.Adc_GetResultAsync
+                0x00001c9a       0x20 ./src/Adc.o
+                0x00001c9a                Adc_GetResultAsync
+ .text.Adc_EnableNotification
+                0x00001cba        0x4 ./src/Adc.o
+                0x00001cba                Adc_EnableNotification
+ .text.Adc_DisableNotification
+                0x00001cbe        0x4 ./src/Adc.o
+                0x00001cbe                Adc_DisableNotification
+ .text.Adc_SetCallback
+                0x00001cc2        0xa ./src/Adc.o
+                0x00001cc2                Adc_SetCallback
+ .text.Button_GetState
+                0x00001ccc       0x10 ./src/Button.o
+                0x00001ccc                Button_GetState
+ .text.Button_Init
+                0x00001cdc        0x8 ./src/Button.o
+                0x00001cdc                Button_Init
+ .text.Dio_SetPinMode
+                0x00001ce4      0x19c ./src/Dio.o
+                0x00001ce4                Dio_SetPinMode
+ .text.Dio_SetPinLevel
+                0x00001e80       0xf2 ./src/Dio.o
+                0x00001e80                Dio_SetPinLevel
+ .text.Dio_FlipPinLevel
+                0x00001f72       0x98 ./src/Dio.o
+                0x00001f72                Dio_FlipPinLevel
+ .text.Dio_ReadPinLevel
+                0x0000200a       0x40 ./src/Dio.o
+                0x0000200a                Dio_ReadPinLevel
+ .text.Eeprom_WriteByte
+                0x0000204a       0x4a ./src/Eeprom.o
+                0x0000204a                Eeprom_WriteByte
+ .text.Eeprom_ReadByte
+                0x00002094       0x6c ./src/Eeprom.o
+                0x00002094                Eeprom_ReadByte
+ .text.Eeprom_Init
+                0x00002100        0x8 ./src/Eeprom.o
+                0x00002100                Eeprom_Init
+ .text.__vector_1
+                0x00002108       0x52 ./src/ExtInt.o
+                0x00002108                __vector_1
+ .text.__vector_2
+                0x0000215a       0x52 ./src/ExtInt.o
+                0x0000215a                __vector_2
+ .text.__vector_3
+                0x000021ac       0x52 ./src/ExtInt.o
+                0x000021ac                __vector_3
+ .text.ExInt_SetCallback
+                0x000021fe       0x2c ./src/ExtInt.o
+                0x000021fe                ExInt_SetCallback
+ .text.ExtInt_SetTriggerEdge
+                0x0000222a       0x98 ./src/ExtInt.o
+                0x0000222a                ExtInt_SetTriggerEdge
+ .text.ExtInt_EnableNotification
+                0x000022c2       0x24 ./src/ExtInt.o
+                0x000022c2                ExtInt_EnableNotification
+ .text.ExtInt_DisableNotification
+                0x000022e6       0x24 ./src/ExtInt.o
+                0x000022e6                ExtInt_DisableNotification
+ .text.ExtInt_ClearFlag
+                0x0000230a       0x24 ./src/ExtInt.o
+                0x0000230a                ExtInt_ClearFlag
+ .text.ExtInt_ReadFlag
+                0x0000232e       0x30 ./src/ExtInt.o
+                0x0000232e                ExtInt_ReadFlag
+ .text.__vector_10
+                0x0000235e       0x52 ./src/Gpt.o
+                0x0000235e                __vector_10
+ .text.__vector_11
+                0x000023b0       0x52 ./src/Gpt.o
+                0x000023b0                __vector_11
+ .text.__vector_7
+                0x00002402       0x52 ./src/Gpt.o
+                0x00002402                __vector_7
+ .text.__vector_8
+                0x00002454       0x52 ./src/Gpt.o
+                0x00002454                __vector_8
+ .text.__vector_9
+                0x000024a6       0x52 ./src/Gpt.o
+                0x000024a6                __vector_9
+ .text.__vector_4
+                0x000024f8       0x52 ./src/Gpt.o
+                0x000024f8                __vector_4
+ .text.__vector_5
+                0x0000254a       0x52 ./src/Gpt.o
+                0x0000254a                __vector_5
+ .text.Gpt_Init
+                0x0000259c      0x16e ./src/Gpt.o
+                0x0000259c                Gpt_Init
+ .text.Gpt_Start
+                0x0000270a      0x170 ./src/Gpt.o
+                0x0000270a                Gpt_Start
+ .text.Gpt_Stop
+                0x0000287a       0x50 ./src/Gpt.o
+                0x0000287a                Gpt_Stop
+ .text.Gpt_Reset
+                0x000028ca       0x1c ./src/Gpt.o
+                0x000028ca                Gpt_Reset
+ .text.Gpt_SetCounterValue
+                0x000028e6       0x1c ./src/Gpt.o
+                0x000028e6                Gpt_SetCounterValue
+ .text.Gpt_SetCompareValue
+                0x00002902       0x26 ./src/Gpt.o
+                0x00002902                Gpt_SetCompareValue
+ .text.Gpt_EnableNotification
+                0x00002928       0x58 ./src/Gpt.o
+                0x00002928                Gpt_EnableNotification
+ .text.Gpt_DisableNotification
+                0x00002980       0x58 ./src/Gpt.o
+                0x00002980                Gpt_DisableNotification
+ .text.Gpt_SetCallback
+                0x000029d8       0x74 ./src/Gpt.o
+                0x000029d8                Gpt_SetCallback
+ .text.Gpt_GetElapsedTime
+                0x00002a4c       0x26 ./src/Gpt.o
+                0x00002a4c                Gpt_GetElapsedTime
+ .text.I2c_MasterInit
+                0x00002a72       0x14 ./src/I2c.o
+                0x00002a72                I2c_MasterInit
+ .text.I2c_SlaveInit
+                0x00002a86        0xc ./src/I2c.o
+                0x00002a86                I2c_SlaveInit
+ .text.I2c_SendStart
+                0x00002a92       0x12 ./src/I2c.o
+                0x00002a92                I2c_SendStart
+ .text.I2c_SendSlaveAddress
+                0x00002aa4       0x16 ./src/I2c.o
+                0x00002aa4                I2c_SendSlaveAddress
+ .text.I2c_WriteData
+                0x00002aba       0x14 ./src/I2c.o
+                0x00002aba                I2c_WriteData
+ .text.I2c_ReadData
+                0x00002ace       0x18 ./src/I2c.o
+                0x00002ace                I2c_ReadData
+ .text.I2c_SendStop
+                0x00002ae6        0x6 ./src/I2c.o
+                0x00002ae6                I2c_SendStop
+ .text.I2c_EnableAck
+                0x00002aec        0x8 ./src/I2c.o
+                0x00002aec                I2c_EnableAck
+ .text.I2c_DisableAck
+                0x00002af4        0x8 ./src/I2c.o
+                0x00002af4                I2c_DisableAck
+ .text.I2c_MasterTransmit
+                0x00002afc       0x74 ./src/I2c.o
+                0x00002afc                I2c_MasterTransmit
+ .text.I2c_MasterReceive
+                0x00002b70       0x4c ./src/I2c.o
+                0x00002b70                I2c_MasterReceive
+ .text.I2c_SlaveTransmit
+                0x00002bbc       0x48 ./src/I2c.o
+                0x00002bbc                I2c_SlaveTransmit
+ .text.I2c_SlaveReceive
+                0x00002c04       0x4c ./src/I2c.o
+                0x00002c04                I2c_SlaveReceive
+ .text.__vector_6
+                0x00002c50       0x56 ./src/Icu.o
+                0x00002c50                __vector_6
+ .text.Icu_SetTriggerEdge
+                0x00002ca6       0x1a ./src/Icu.o
+                0x00002ca6                Icu_SetTriggerEdge
+ .text.Icu_EnableNoiseCanceller
+                0x00002cc0        0x8 ./src/Icu.o
+                0x00002cc0                Icu_EnableNoiseCanceller
+ .text.Icu_DisbleNoiseCanceller
+                0x00002cc8        0x8 ./src/Icu.o
+                0x00002cc8                Icu_DisbleNoiseCanceller
+ .text.Icu_EnableNotification
+                0x00002cd0        0x8 ./src/Icu.o
+                0x00002cd0                Icu_EnableNotification
+ .text.Icu_DisbleNotification
+                0x00002cd8        0x8 ./src/Icu.o
+                0x00002cd8                Icu_DisbleNotification
+ .text.Icu_SetCallback
+                0x00002ce0        0xa ./src/Icu.o
+                0x00002ce0                Icu_SetCallback
+ .text.Keypad_GetRowLevel
+                0x00002cea       0x34 ./src/Keypad.o
+ .text.Keypad_SetColumnLevel
+                0x00002d1e       0x34 ./src/Keypad.o
+ .text.Keypad_GetButtonState
+                0x00002d52       0x4a ./src/Keypad.o
+                0x00002d52                Keypad_GetButtonState
+ .text.Keypad_Init
+                0x00002d9c       0x7a ./src/Keypad.o
+                0x00002d9c                Keypad_Init
+ .text.Lcd_SendCommand
+                0x00002e16       0xd8 ./src/Lcd.o
+ .text.Lcd_ControlDisplay
+                0x00002eee       0x4a ./src/Lcd.o
+                0x00002eee                Lcd_ControlDisplay
+ .text.Lcd_ShiftCursorLeft
+                0x00002f38       0x16 ./src/Lcd.o
+                0x00002f38                Lcd_ShiftCursorLeft
+ .text.Lcd_ShiftCursorRight
+                0x00002f4e       0x16 ./src/Lcd.o
+                0x00002f4e                Lcd_ShiftCursorRight
+ .text.Lcd_ReturnHome
+                0x00002f64        0x8 ./src/Lcd.o
+                0x00002f64                Lcd_ReturnHome
+ .text.Lcd_ShiftDisplayRight
+                0x00002f6c       0x16 ./src/Lcd.o
+                0x00002f6c                Lcd_ShiftDisplayRight
+ .text.Lcd_ShiftDisplayLeft
+                0x00002f82       0x16 ./src/Lcd.o
+                0x00002f82                Lcd_ShiftDisplayLeft
+ .text.Lcd_SetCursorPosition
+                0x00002f98       0x12 ./src/Lcd.o
+                0x00002f98                Lcd_SetCursorPosition
+ .text.Lcd_ClearDisplay
+                0x00002faa        0x8 ./src/Lcd.o
+                0x00002faa                Lcd_ClearDisplay
+ .text.Lcd_SendData
+                0x00002fb2       0xd8 ./src/Lcd.o
+ .text.Lcd_SaveSpecialCharacter
+                0x0000308a       0x3c ./src/Lcd.o
+                0x0000308a                Lcd_SaveSpecialCharacter
+ .text.Lcd_DisplayNumber
+                0x000030c6      0x298 ./src/Lcd.o
+                0x000030c6                Lcd_DisplayNumber
+ .text.Lcd_DisplayString
+                0x0000335e       0x1a ./src/Lcd.o
+                0x0000335e                Lcd_DisplayString
+ .text.Lcd_DisplayCharcter
+                0x00003378        0x6 ./src/Lcd.o
+                0x00003378                Lcd_DisplayCharcter
+ .text.Lcd_Print
+                0x0000337e       0xc4 ./src/Lcd.o
+                0x0000337e                Lcd_Print
+ .text.Lcd_Init
+                0x00003442       0xb6 ./src/Lcd.o
+                0x00003442                Lcd_Init
+ .text.Led_TurnOff
+                0x000034f8        0x8 ./src/Led.o
+                0x000034f8                Led_TurnOff
+ .text.Led_TurnOn
+                0x00003500        0x8 ./src/Led.o
+                0x00003500                Led_TurnOn
+ .text.Led_Init
+                0x00003508        0x8 ./src/Led.o
+                0x00003508                Led_Init
+ .text.Pwm_Start
+                0x00003510      0x17c ./src/Pwm.o
+                0x00003510                Pwm_Start
+ .text.Pwm_Stop
+                0x0000368c       0x4e ./src/Pwm.o
+                0x0000368c                Pwm_Stop
+ .text.Pwm_SetDutyCycle
+                0x000036da       0x6a ./src/Pwm.o
+                0x000036da                Pwm_SetDutyCycle
+ .text.Pwm_SetTimeOn
+                0x00003744       0x26 ./src/Pwm.o
+                0x00003744                Pwm_SetTimeOn
+ .text.Pwm_SetICR
+                0x0000376a        0x6 ./src/Pwm.o
+                0x0000376a                Pwm_SetICR
+ .text.Pwm_Init
+                0x00003770      0x1cc ./src/Pwm.o
+                0x00003770                Pwm_Init
+ .text.__vector_12
+                0x0000393c       0x54 ./src/Spi.o
+                0x0000393c                __vector_12
+ .text.Spi_Transfer
+                0x00003990        0xa ./src/Spi.o
+                0x00003990                Spi_Transfer
+ .text.Spi_WriteDataRegister
+                0x0000399a        0x4 ./src/Spi.o
+                0x0000399a                Spi_WriteDataRegister
+ .text.Spi_EnableNotification
+                0x0000399e        0x4 ./src/Spi.o
+                0x0000399e                Spi_EnableNotification
+ .text.Spi_DisableNotification
+                0x000039a2        0x4 ./src/Spi.o
+                0x000039a2                Spi_DisableNotification
+ .text.Spi_SetCallbak
+                0x000039a6        0xa ./src/Spi.o
+                0x000039a6                Spi_SetCallbak
+ .text.Spi_Init
+                0x000039b0       0x3a ./src/Spi.o
+                0x000039b0                Spi_Init
+ .text.Ssd_DisplayNumber
+                0x000039ea      0x242 ./src/Ssd.o
+                0x000039ea                Ssd_DisplayNumber
+ .text.Ssd_SetDotOff
+                0x00003c2c        0xc ./src/Ssd.o
+                0x00003c2c                Ssd_SetDotOff
+ .text.Ssd_SetDotOn
+                0x00003c38        0xc ./src/Ssd.o
+                0x00003c38                Ssd_SetDotOn
+ .text.Ssd_Init
+                0x00003c44       0x52 ./src/Ssd.o
+                0x00003c44                Ssd_Init
+ .text.__vector_13
+                0x00003c96       0x54 ./src/Uart.o
+                0x00003c96                __vector_13
+ .text.__vector_15
+                0x00003cea       0x52 ./src/Uart.o
+                0x00003cea                __vector_15
+ .text.__vector_14
+                0x00003d3c       0x52 ./src/Uart.o
+                0x00003d3c                __vector_14
+ .text.Uart_SetBaudRate
+                0x00003d8e        0xa ./src/Uart.o
+                0x00003d8e                Uart_SetBaudRate
+ .text.Uart_Transmit
+                0x00003d98        0xe ./src/Uart.o
+                0x00003d98                Uart_Transmit
+ .text.Uart_SendNumber
+                0x00003da6      0x298 ./src/Uart.o
+                0x00003da6                Uart_SendNumber
+ .text.Uart_Receive
+                0x0000403e        0x8 ./src/Uart.o
+                0x0000403e                Uart_Receive
+ .text.Uart_EnableNotification
+                0x00004046       0x1a ./src/Uart.o
+                0x00004046                Uart_EnableNotification
+ .text.Uart_DisableNotification
+                0x00004060       0x1a ./src/Uart.o
+                0x00004060                Uart_DisableNotification
+ .text.Uart_SetTransmitCallback
+                0x0000407a        0xa ./src/Uart.o
+                0x0000407a                Uart_SetTransmitCallback
+ .text.Uart_SetDataEmptyCallback
+                0x00004084        0xa ./src/Uart.o
+                0x00004084                Uart_SetDataEmptyCallback
+ .text.Uart_SetReceiveCallback
+                0x0000408e        0xa ./src/Uart.o
+                0x0000408e                Uart_SetReceiveCallback
+ .text.Uart_Init
+                0x00004098       0x28 ./src/Uart.o
+                0x00004098                Uart_Init
+ .text.Wdt_Enable
+                0x000040c0        0x8 ./src/Wdt.o
+                0x000040c0                Wdt_Enable
+ .text.Wdt_Disable
+                0x000040c8        0xe ./src/Wdt.o
+                0x000040c8                Wdt_Disable
+ .text.Wdt_Refresh
+                0x000040d6       0x14 ./src/Wdt.o
+                0x000040d6                Wdt_Refresh
+ .text.Wdt_SetTimeOut
+                0x000040ea       0x14 ./src/Wdt.o
+                0x000040ea                Wdt_SetTimeOut
+ .text.Handler_Tim2_COMP
+                0x000040fe       0x1c ./src/main.o
+                0x000040fe                Handler_Tim2_COMP
+ .text.Handler_UartRx
+                0x0000411a        0xc ./src/main.o
+                0x0000411a                Handler_UartRx
+ .text.main     0x00004126       0x7c ./src/main.o
+                0x00004126                main
+ .text.Handler_Int0
+                0x000041a2       0x8a ./src/main.o
+                0x000041a2                Handler_Int0
+ .text.Handler_Tim0_COMP
+                0x0000422c       0x1c ./src/main.o
+                0x0000422c                Handler_Tim0_COMP
+ .text.libgcc   0x00004248       0x28 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00004248                __udivmodhi4
+ .text.libgcc   0x00004270       0x36 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                0x00004270                __divmodsi4
+ .text.libgcc   0x000042a6        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x000042a6        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000042a6        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000042a6       0x3e f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x000042a6                __mulsi3
+ .text.libgcc   0x000042e4       0x44 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x000042e4                __udivmodsi4
+ .text.libgcc   0x00004328       0x38 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00004328                __prologue_saves__
+ .text.libgcc   0x00004360       0x36 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x00004360                __epilogue_restores__
+                0x00004396                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00004396        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00004396                exit
+                0x00004396                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00004396        0x4 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000439a                _etext = .
+
+.data           0x00800060      0x110 load address 0x0000439a
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./src/Adc.o
+ .data          0x00800060        0x0 ./src/Adc_PbCfg.o
+ .data          0x00800060        0x0 ./src/Button.o
+ .data          0x00800060        0x0 ./src/Dio.o
+ .data          0x00800060        0x0 ./src/Eeprom.o
+ .data          0x00800060        0x0 ./src/ExtInt.o
+ .data          0x00800060        0x0 ./src/Gpt.o
+ .data          0x00800060        0x0 ./src/Gpt_PbCfg.o
+ .data          0x00800060        0x0 ./src/I2c.o
+ .data          0x00800060        0x0 ./src/Icu.o
+ .data          0x00800060        0x0 ./src/Keypad.o
+ .data          0x00800060        0x0 ./src/Lcd.o
+ .data          0x00800060        0x0 ./src/Lcd_PbCfg.o
+ .data          0x00800060        0x0 ./src/Led.o
+ .data          0x00800060        0x0 ./src/Pwm.o
+ .data          0x00800060        0x0 ./src/Spi.o
+ .data          0x00800060        0x0 ./src/SpiApp.o
+ .data          0x00800060        0x0 ./src/Ssd.o
+ .data          0x00800060        0x0 ./src/Uart.o
+ .data          0x00800060        0x0 ./src/Wdt.o
+ .data          0x00800060        0x0 ./src/main.o
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x00800060        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x00800060      0x100 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                0x00800060                __clz_tab
+ *(.data*)
+ .data.Adc_Configuration
+                0x00800160        0x3 ./src/Adc_PbCfg.o
+                0x00800160                Adc_Configuration
+ .data.Gpt_Configuration
+                0x00800163        0x6 ./src/Gpt_PbCfg.o
+                0x00800163                Gpt_Configuration
+ .data.Lcd_Configuration
+                0x00800169        0x5 ./src/Lcd_PbCfg.o
+                0x00800169                Lcd_Configuration
+ .data.countUp  0x0080016e        0x1 ./src/main.o
+                0x0080016e                countUp
+ .data.state.1728
+                0x0080016f        0x1 ./src/main.o
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800170                . = ALIGN (0x2)
+                0x00800170                _edata = .
+                0x00800170                PROVIDE (__data_end, .)
+
+.bss            0x00800170       0x2b
+                0x00800170                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800170        0x0 ./src/Adc.o
+ .bss           0x00800170        0x0 ./src/Adc_PbCfg.o
+ .bss           0x00800170        0x0 ./src/Button.o
+ .bss           0x00800170        0x0 ./src/Dio.o
+ .bss           0x00800170        0x0 ./src/Eeprom.o
+ .bss           0x00800170        0x0 ./src/ExtInt.o
+ .bss           0x00800170        0x0 ./src/Gpt.o
+ .bss           0x00800170        0x0 ./src/Gpt_PbCfg.o
+ .bss           0x00800170        0x0 ./src/I2c.o
+ .bss           0x00800170        0x0 ./src/Icu.o
+ .bss           0x00800170        0x0 ./src/Keypad.o
+ .bss           0x00800170        0x0 ./src/Lcd.o
+ .bss           0x00800170        0x0 ./src/Lcd_PbCfg.o
+ .bss           0x00800170        0x0 ./src/Led.o
+ .bss           0x00800170        0x0 ./src/Pwm.o
+ .bss           0x00800170        0x0 ./src/Spi.o
+ .bss           0x00800170        0x0 ./src/SpiApp.o
+ .bss           0x00800170        0x0 ./src/Ssd.o
+ .bss           0x00800170        0x0 ./src/Uart.o
+ .bss           0x00800170        0x0 ./src/Wdt.o
+ .bss           0x00800170        0x0 ./src/main.o
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00800170        0x0 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ *(.bss*)
+ .bss.Adc_Callback
+                0x00800170        0x2 ./src/Adc.o
+                0x00800170                Adc_Callback
+ .bss.Callback_Int0
+                0x00800172        0x2 ./src/ExtInt.o
+                0x00800172                Callback_Int0
+ .bss.Callback_Int1
+                0x00800174        0x2 ./src/ExtInt.o
+                0x00800174                Callback_Int1
+ .bss.Callback_Int2
+                0x00800176        0x2 ./src/ExtInt.o
+                0x00800176                Callback_Int2
+ .bss.Gpt_Callback_TIM0_COMP
+                0x00800178        0x2 ./src/Gpt.o
+                0x00800178                Gpt_Callback_TIM0_COMP
+ .bss.Gpt_Callback_TIM0_OVF
+                0x0080017a        0x2 ./src/Gpt.o
+                0x0080017a                Gpt_Callback_TIM0_OVF
+ .bss.Gpt_Callback_TIM1A_COMP
+                0x0080017c        0x2 ./src/Gpt.o
+                0x0080017c                Gpt_Callback_TIM1A_COMP
+ .bss.Gpt_Callback_TIM1B_COMP
+                0x0080017e        0x2 ./src/Gpt.o
+                0x0080017e                Gpt_Callback_TIM1B_COMP
+ .bss.Gpt_Callback_TIM1_OVF
+                0x00800180        0x2 ./src/Gpt.o
+                0x00800180                Gpt_Callback_TIM1_OVF
+ .bss.Gpt_Callback_TIM1_CAPT
+                0x00800182        0x2 ./src/Gpt.o
+                0x00800182                Gpt_Callback_TIM1_CAPT
+ .bss.Gpt_Callback_TIM2_OVF
+                0x00800184        0x2 ./src/Gpt.o
+                0x00800184                Gpt_Callback_TIM2_OVF
+ .bss.Gpt_Callback_TIM2_COMP
+                0x00800186        0x2 ./src/Gpt.o
+                0x00800186                Gpt_Callback_TIM2_COMP
+ .bss.Icu_Callback
+                0x00800188        0x2 ./src/Icu.o
+                0x00800188                Icu_Callback
+ .bss.Spi_Callback
+                0x0080018a        0x2 ./src/Spi.o
+                0x0080018a                Spi_Callback
+ .bss.Uart_RxCallback
+                0x0080018c        0x2 ./src/Uart.o
+                0x0080018c                Uart_RxCallback
+ .bss.Uart_TxCallback
+                0x0080018e        0x2 ./src/Uart.o
+                0x0080018e                Uart_TxCallback
+ .bss.Uart_RegEmptyCallback
+                0x00800190        0x2 ./src/Uart.o
+                0x00800190                Uart_RegEmptyCallback
+ .bss.i         0x00800192        0x1 ./src/main.o
+                0x00800192                i
+ .bss.overflow_counter
+                0x00800193        0x1 ./src/main.o
+                0x00800193                overflow_counter
+ .bss.receivedFlag
+                0x00800194        0x1 ./src/main.o
+                0x00800194                receivedFlag
+ .bss.counter.1714
+                0x00800195        0x1 ./src/main.o
+ *(COMMON)
+ COMMON         0x00800196        0x5 ./src/main.o
+                0x00800196                T_on
+                0x00800198                T_total
+                0x0080019a                receivedChar
+                0x0080019b                PROVIDE (__bss_end, .)
+                0x0000439a                __data_load_start = LOADADDR (.data)
+                0x000044aa                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080019b        0x0
+                0x0080019b                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080019b                PROVIDE (__noinit_end, .)
+                0x0080019b                _end = .
+                0x0080019b                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x00000020       0x20 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x00000040       0x20 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+
+.debug_pubnames
+                0x00000000       0x80
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x20 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+ .debug_pubnames
+                0x00000020       0x20 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+ .debug_pubnames
+                0x00000040       0x20 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+ .debug_pubnames
+                0x00000060       0x20 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_info     0x00000000     0x109d
+ *(.debug_info)
+ .debug_info    0x00000000      0x17f f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+ .debug_info    0x0000017f      0x71e f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+ .debug_info    0x0000089d      0x757 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+ .debug_info    0x00000ff4       0xa9 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x469
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xee f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x000000ee      0x181 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x0000026f      0x190 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x000003ff       0x6a f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_line     0x00000000      0x55b
+ *(.debug_line)
+ .debug_line    0x00000000       0xd7 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+ .debug_line    0x000000d7      0x1d8 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+ .debug_line    0x000002af      0x230 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+ .debug_line    0x000004df       0x7c f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_frame    0x00000000       0x60
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+ .debug_frame   0x00000020       0x20 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+ .debug_frame   0x00000040       0x20 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+
+.debug_str      0x00000000      0x16a
+ *(.debug_str)
+ .debug_str     0x00000000       0xe4 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+                                0x131 (size before relaxing)
+ .debug_str     0x000000e4       0x7c f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+                                0x18a (size before relaxing)
+ .debug_str     0x00000160        0xa f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+                                0x18a (size before relaxing)
+ .debug_str     0x00000000       0xf4 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_loc      0x00000000     0x1a1e
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xf8 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ashldi3.o)
+ .debug_loc     0x000000f8      0xe74 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+ .debug_loc     0x00000f6c      0xab2 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(AVR_DRIVERS.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x30
+ .debug_ranges  0x00000000       0x18 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivdi3.o)
+ .debug_ranges  0x00000018       0x18 f:/embedded materials/imtsdkavrconfig/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_umoddi3.o)
